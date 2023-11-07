@@ -1,46 +1,47 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us - Peruvian News Station</title>
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" href="style.css">
+  <!-- Replace with the path to your Tailwind CSS file -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <header>
-    <h1>Peruvian News Station</h1>
+<body class="bg-gray-100 font-sans">
+  <header class="bg-blue-800 text-white text-center p-4">
+    <h1 class="text-xl font-bold">Peruvian News Station</h1>
     <nav>
-      <ul>
-        <li><a href="about.html" class="active">About</a></li>
+      <ul class="flex justify-center mt-2">
+        <li><a href="about.html" class="text-blue-200 hover:text-blue-100 px-3 py-2 rounded-md text-sm font-medium">About</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section class="about-section">
-      <h2>About Us</h2>
-      <p>Welcome to the Peruvian News Station - your trusted source for news in Peru. We are dedicated to bringing you the latest and most accurate news coverage from across Peru. Our team of experienced journalists is committed to providing in-depth analysis and comprehensive reporting on the events that matter to you.</p>
-      <p>Since our establishment, Peruvian News Station has been at the forefront of broadcasting, delivering high-quality news programming to viewers across the nation. We are proud to be a part of Peru's vibrant media landscape, and we strive to uphold the highest standards of journalistic integrity.</p>
+  <main class="container mx-auto px-4 py-8">
+    <section class="about-section mb-6">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">About Us</h2>
+      <p class="text-gray-700 leading-relaxed mb-4">Welcome to the Peruvian News Station - your trusted source for news in Peru. We are dedicated to bringing you the latest and most accurate news coverage from across Peru. Our team of experienced journalists is committed to providing in-depth analysis and comprehensive reporting on the events that matter to you.</p>
+      <p class="text-gray-700 leading-relaxed">Since our establishment, Peruvian News Station has been at the forefront of broadcasting, delivering high-quality news programming to viewers across the nation. We are proud to be a part of Peru's vibrant media landscape, and we strive to uphold the highest standards of journalistic integrity.</p>
     </section>
 
-    <section class="history-section">
-      <h2>Our History</h2>
-      <p>The Peruvian News Station was founded in 1998 with the mission to inform and educate the Peruvian public. Over the years, we have grown in size and scope, embracing new technologies to better serve our audience. Today, we continue to innovate and expand our reach, ensuring that no matter where you are, you can count on us for reliable news reporting.</p>
+    <section class="history-section mb-6">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">Our History</h2>
+      <p class="text-gray-700 leading-relaxed">The Peruvian News Station was founded in 1998 with the mission to inform and educate the Peruvian public. Over the years, we have grown in size and scope, embracing new technologies to better serve our audience. Today, we continue to innovate and expand our reach, ensuring that no matter where you are, you can count on us for reliable news reporting.</p>
     </section>
 
     <section class="values-section">
-      <h2>Our Values</h2>
-      <ul>
-        <li>Integrity</li>
-        <li>Accuracy</li>
-        <li>Impartiality</li>
-        <li>Public Service</li>
-        <li>Innovation</li>
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">Our Values</h2>
+      <ul class="list-disc pl-5 text-gray-700">
+        <li class="mb-2">Integrity</li>
+        <li class="mb-2">Accuracy</li>
+        <li class="mb-2">Impartiality</li>
+        <li class="mb-2">Public Service</li>
+        <li class="mb-2">Innovation</li>
       </ul>
     </section>
   </main>
 
-  <footer>
+  <footer class="bg-gray-800 text-white text-center p-4">
     <p>&copy; 2023 Peruvian News Station. All rights reserved.</p>
   </footer>
 </body>
